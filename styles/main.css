@@ -1,0 +1,568 @@
+/* All images are royalty free stock images from:
+http://www.freeimages.com/
+http://search.creativecommons.org/ 
+Logo by DS */
+
+
+
+*, *:before, *:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	background: url("../images/bg.jpg") fixed;
+}
+
+body {
+	max-width: 1080px;
+	background-image: url("../images/bg2.jpg");
+	height: 100%;
+	margin: 0 auto;
+	font-family: "tahomaregular";
+	font-size: 22px;	
+}
+
+header {
+	width: 100%;
+	height: 230px;
+	background-image: url("../images/header.jpg");
+	background-size: cover;
+	border-radius: 0 0 10px 10px;
+}
+
+h1 {
+	width: 800px;
+	height: 143px;
+	margin: 0 auto;
+	background: url("../images/logo.png") no-repeat;
+	font: 0/0 a;
+}
+
+/*Nav begins*/
+
+nav {
+	opacity: .9;
+	margin-top: -20px;
+}
+
+#menu {
+	width: 456px;
+	margin: 60px auto;
+	border: 1px solid #222;
+	background-image: -webkit-linear-gradient(#0052cc, #002256);
+	background-image: linear-gradient(#0052cc, #002256);
+	background-image: -moz-linear-gradient(#0052cc, #002256);
+	border-radius: 6px;
+	background-size: cover;
+}
+
+#menu:before, #menu:after {
+	content: "";
+	display: table;
+}
+
+#menu:after {
+	clear: both;
+}
+
+#menu li {
+	float: left;
+	border-right: 1px solid #222;
+	position: relative;
+}
+
+#menu a {
+	float: left;
+	padding: 12px 30px;
+	color: #00ccff;
+	text-transform: uppercase;
+	font: bold 18px Arial, Helvetica;
+	text-decoration: none;
+	text-shadow: 0 3px 0 #000;
+}
+
+#menu li:hover > a {
+	color: #fafafa;
+}
+
+/*Nav ends*/
+
+#container {					
+	margin-left: 25px;
+	margin-right: 25px;
+}		
+
+.main {						
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 25px;
+}
+
+article {
+	clear: both;
+}
+
+h2 {
+	font-family: "kaushan_scriptregular";	/* Google font */
+	font-size: 48px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.intropic {
+	width: 25%;
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 15px;
+}
+
+.intropic2 {
+	width: 25%;
+	float: right;
+	margin-left: 15px;
+	margin-bottom: 15px;
+}
+
+h3 {
+	font-family: "tahomaregular";
+	font-size: 28px;
+	margin-top: 25px;
+	margin-bottom: 10px;
+}
+
+.example {
+	width: 100%;
+	margin-bottom: 25px;
+}
+
+h4 {
+	font-family: "tahomaregular";
+	font-size: 22px;
+	margin-top: 25px;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+.flies {
+	width: 33%;
+	float: right;
+	margin-left: 5px;
+	margin-bottom: 5px;
+}
+
+.spinners {
+	width: 45%;
+	float: right;
+	margin-left: 5px;
+	margin-bottom: 5px;
+}
+
+.ad img {
+	width: 25%;
+	float: right;
+	margin-left: 15px;
+	margin-bottom: 15px;
+}
+
+.ad2 {
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.ad2 a {
+	margin-left: 23%;
+}
+
+.ad2 img {
+	width: 55%;
+}
+
+.topicon {
+	margin-left: 55px;
+}
+
+.topicon img {
+	width: 100px;
+	margin-top: 25px;
+}
+
+.topicon img:hover {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+	-moz-transform: scale(1.1);
+}
+
+/* Lightbox begins*/
+
+#lightboxwindow {				
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.8);
+	text-align: center;
+}
+
+#lightboxwindow img {			
+	width: 65%;
+}
+
+#lightboxcontent {				
+	color: #fff;
+	margin: 0 auto;
+	margin-top: 80px;
+	max-width: 720px;
+}
+
+/* Lightbox ends*/
+
+/*Table begins*/
+
+thead {						
+	font-size: 24px;
+	font-weight: bold;
+	width: 100%;
+}
+
+.short {					
+	width: 25%;
+}
+
+.long {
+	width: 75%;
+}
+
+td {					
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+.fishpic {
+	width: 90%;
+}
+
+.dark {
+	background-color: #647d7d;
+}
+
+/*Table ends*/
+
+.portrait {
+	width: 25%;
+	float: left;
+	margin-right: 10px;
+}
+
+/*Message form begins*/
+
+form {
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+label {
+	display: block;
+}
+
+input[type="text"], 
+textarea {
+	display: block;
+	margin-top: 7px;
+	margin-bottom: 7px;
+}
+
+input[type="text"] {
+	width: 30%;
+}
+
+input {
+	font-size: 16px;
+}
+
+textarea {
+	font-size: 16px;
+	width: 60%;
+	height: 150px;
+}
+
+/*Message form ends*/
+
+footer {
+	clear: both;
+	width: 100%;
+	height: 120px;
+	background-color: #000;
+	margin-top: 50px;
+	text-align: center;
+	border-radius: 10px 10px 0 0;
+}
+
+footer a {
+	font-size: 18px;
+}
+
+#footericons {
+	padding-top: 20px;
+	margin-bottom: 5px;
+}
+
+#footericons img {
+	margin-right: 5px;
+	margin-left: 5px;
+	width: 40px;
+}
+
+#footericons img:hover {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+	-moz-transform: scale(1.1);
+}
+
+
+
+
+
+/* Media Query for Tablet Begins */
+
+@media screen and (min-width: 480px) and (max-width: 900px) {
+	
+	html {
+		background-image: none;		/* Removing background image for smaller screen sizes, since it's not visible anyway, to make the page load faster */
+	}
+
+	body {
+		font-size: 20px;	
+	}
+
+	header {
+		height: 180px;
+	}
+
+	h1 {
+		margin-left: -190px;	/* Higher #'s due to big scaling down */
+		-webkit-transform: scale(.5);
+		transform: scale(.5);
+		-moz-transform: scale(.5);
+	}
+
+	nav {
+		margin-top: -8px;
+		-webkit-transform: scale(.9);
+		transform: scale(.9);
+		-moz-transform: scale(.9);
+	}
+
+	#menu {
+		margin: 0 auto;
+	}
+
+	h2 {
+		font-size: 42px;
+		margin-top: 25px;
+		margin-bottom: 25px;
+	}
+
+	.intropic,
+	.intropic2 {
+		width: 35%;
+	}
+
+	h3 {
+		font-size: 26px;
+		margin-top: 25px;
+		margin-bottom: 10px;
+	}
+
+	h4 {
+		font-size: 20px;
+	}
+
+	.flies {
+		width: 45%;
+	}
+
+	.spinners {
+		width: 65%;
+	}
+
+	.ad img {
+		width: 35%;
+	}
+
+	.ad2 img {
+		width: 75%;
+	}
+
+	.ad2 a {
+		margin-left: 13%;
+	}
+
+	.topicon {
+		margin-left: 25px;
+	}
+
+	.short {					
+		width: 35%;
+	}
+
+	.long {
+		width: 65%;
+	}
+
+	.portrait {
+		width: 35%;
+	}
+
+	input[type="text"] {
+		width: 45%;
+	}
+
+	textarea {
+		font-size: 16px;
+		width: 80%;
+	}
+}	
+	
+/* Media Query for Tablet Ends */
+/* Media Query for Mobile Begins */
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+
+	html {
+		background-image: none;		/* Removing background image for smaller screen sizes, since it's not visible anyway, to make the page load faster */
+	}
+
+	body {
+		font-size: 18px;	
+	}
+
+	header {
+		width: 100%;
+		height: 140px;
+	}
+
+	h1 {
+		margin-top: -30px;		
+		margin-left: -250px;	/* Higher #'s due to big scaling down */
+		-webkit-transform: scale(.3);
+		transform: scale(.3);
+		-moz-transform: scale(.3);
+	}
+
+	nav {
+		margin-top: -44px;
+		margin-left: -70px;
+		-webkit-transform: scale(.6);
+		transform: scale(.6);
+		-moz-transform: scale(.6);
+	}
+
+	#menu {
+		margin: 0 auto;
+	}
+
+	h2 {
+		font-size: 32px;
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+
+	#container {					
+		margin-left: 15px;
+		margin-right: 15px;
+	}		
+
+	.main {						
+		margin-bottom: 15px;
+	}
+
+	.intropic,
+	.intropic2 {
+		width: 40%;
+	}
+
+	h3 {
+		font-size: 24px;
+	}
+
+	h4 {
+		font-size: 18px;
+	}
+
+	.flies {
+		width: 60%;
+	}
+
+	.spinners {
+		width: 65%;
+	}
+
+	.ad img {
+		width: 40%;
+		margin-left: 5px;
+		margin-bottom: 5px;
+	}
+
+	.ad2 img {
+		width: 90%;
+	}
+
+	.ad2 a {
+		margin-left: 5%;
+	}
+
+	.topicon {
+		margin-left: 15px;
+	}
+
+	.topicon img {
+		width: 80px;
+	}
+
+	.short {					
+		width: 40%;
+	}
+
+	.long {
+		width: 60%;
+	}
+
+	.portrait {
+		width: 45%;
+	}
+
+	input[type="text"] {
+		width: 65%;
+	}
+
+	textarea {
+		font-size: 16px;
+		width: 100%;
+	}
+
+	#footericons {
+		padding-top: 20px;
+		margin-bottom: 15px;
+	}
+}
+
+/* Media Query for Mobile Ends */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
